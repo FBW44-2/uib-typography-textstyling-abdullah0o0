@@ -1,14 +1,47 @@
 /* css reset */
-* {
-    margin: 0;
-    padding: 0;
+*{
+  margin: 0;
+  padding: 0;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
 }
 
 body {
-    padding: 40px;
+  padding: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:rgba(150, 80, 140, 0.925);
 }
 
 blockquote {
-    margin: 0 0 0 30px;
+  margin: 0 0 0 30px;
+  font-style: italic;
+  line-height: 2rem;
+}
+h1,h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+h1{
+    font-size: 3rem;
+}
+h3{
+    font-size: 1.5rem;
+    text-align: center;
+    word-spacing: 20px;
+    letter-spacing: -0.1px;
+
+}
+em {
+    text-transform: capitalize;
+}
+strong{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
 }
 
